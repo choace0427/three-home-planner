@@ -2,24 +2,11 @@
   background-color: #f6f9ff;
 }
 
-#tool-panel {
-  /* tell our scene container to take up the full page */
-  position: absolute;
-  z-index: 1;
-  right: 70%;
-  width: 30%;
-  height: 100%;
-  padding: 20px;
-
-  box-shadow: -5px 0px 15px -6px rgba(0, 0, 0, 0.42);
-}
-
 #tool-button {
-  visibility: hidden;
   position: absolute;
   z-index: 1;
-  top: 30px;
-  left: 30px;
+  top: 15px;
+  left: 15px;
 }
 
 #button-item {
@@ -31,6 +18,8 @@
   box-shadow: -5px 0px 15px -6px rgba(0, 0, 0, 0.75);
   color: white;
 }
+
+
 
 .img-wrapper {
   /* padding: 1em; */

@@ -7,6 +7,7 @@ function createRenderer() {
   });
 
   renderer.physicallyCorrectLights = true;
+  renderer.shadowMap.enabled = true;
 
   return renderer;
 }
